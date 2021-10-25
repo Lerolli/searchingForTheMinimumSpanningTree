@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="searchingForTheMinimumSpanningTree:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/searchingForTheMinimumSpanningTree_jar</output-path>
+    <root id="archive" name="searchingForTheMinimumSpanningTree.jar">
+      <element id="module-output" name="searchingForTheMinimumSpanningTree" />
+    </root>
+  </artifact>
+</component>
