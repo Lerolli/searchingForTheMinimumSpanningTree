@@ -14,7 +14,8 @@ public class Program {
         g.MakeGraph(array);
         try(FileWriter writer = new FileWriter("result.txt", false))
         {
-            String text =  g.findMinimumSpanningTree();;
+            //System.out.println(g.matrixToString());
+            String text =  g.findMinimumSpanningTree();
             writer.write(text);
             writer.flush();
         }

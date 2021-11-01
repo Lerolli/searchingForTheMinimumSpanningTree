@@ -5,10 +5,16 @@ import java.util.HashMap;
 
 public class Edge implements Comparable, Comparator {
     public int number;
+    public int numberToString;
     public Edge ancestor;
     public HashMap<Edge, Integer> neighbor;
     public int compareElement;
+    public int tempLength;
+    @Override
+    public String toString(){
 
+        return "Edge number " + numberToString;
+    }
     @Override
     public int compare(Object o1, Object o2) {
         if (((Edge) o1).compareElement < ((Edge) o2).compareElement) {
